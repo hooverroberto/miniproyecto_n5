@@ -18,7 +18,25 @@
                     <a class="js-arrow" href="{{ route('users.index') }}">
                         <i class="fas fa-tachometer-alt"></i>Users</a>
                 </li>
-                @endcan
+                
+                <li @if($currentPage == 'teachers') class="active has-sub" @else class="has-sub" @endif>
+                    <a class="js-arrow" href="{{ route('teachers.index') }}">
+                        <i class="fas fa-tachometer-alt"></i>Teachers</a>
+                </li>
+
+                <li @if($currentPage == 'teachers') class="active has-sub" @else class="has-sub" @endif>
+                    <a class="js-arrow" href="{{ route('teachers.index') }}">
+                        <i class="fas fa-tachometer-alt"></i>Materias</a>
+                </li>
+
+                <li @if($currentPage == 'teachers') class="active has-sub" @else class="has-sub" @endif>
+                    <a class="js-arrow" href="{{ route('teachers.index') }}">
+                        <i class="fas fa-tachometer-alt"></i>Estudiantes</a>
+                </li>
+                @endcan  
+                
+                
+                
             </ul>
         </nav>
     </div>
