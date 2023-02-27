@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Fanadesh</title>
+  <title>Colegio</title>
 
   <!-- {{asset('assets/css/styles.css')}} -->
 
@@ -45,7 +45,7 @@
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index.html">
             <span>
-              Fanadesh
+              Colegio
             </span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"

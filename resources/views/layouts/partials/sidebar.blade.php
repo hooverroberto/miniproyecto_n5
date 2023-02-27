@@ -33,7 +33,14 @@
                     <a class="js-arrow" href="{{ route('teachers.index') }}">
                         <i class="fas fa-tachometer-alt"></i>Estudiantes</a>
                 </li>
-                @endcan  
+                @endcan  git merge
+La herramienta git merge se utiliza para fusionar uno o más ramas dentro de la rama que tienes activa. A continuación avanzará la rama actual al resultado de la fusión.
+
+El comando git merge fue introducido por primera en Procedimientos Básicos de Ramificación. A pesar de que se utiliza en diversos lugares en el libro, hay muy pocas variaciones del comando merge — en general, sólo git merge <branch> con el nombre de la rama individual que se desea combinar.
+
+Cubrimos cómo hacer una fusión aplastada (squashed merge) (donde Git fusiona el trabajo, pero finge como si fuera simplemente un nuevo commit sin registrar la historia de la rama que se está fusionando) al final de Proyecto público bifurcado.
+
+Repasamos mucho sobre el proceso de fusión y dirección, incluyendo el comando -Xignore-all-whitespace y el indicador --abort para abortar un problema de fusión en Fusión Avanzada.
                 
                 
                 
